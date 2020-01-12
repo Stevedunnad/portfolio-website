@@ -1,0 +1,135 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+/* utility classes 
+if this is put inside the navbar then the nav bar will exteng beyond 1100px. Becuase the container is outside the .navbar it is restricted*/
+.container{
+    max-width: 1100px;
+    margin: 0 auto;
+    p:40px
+    overflow: auto;
+    
+}
+
+/* main styling */
+html, body {
+    font-family: 'Roboto Mono', monospace;
+    line-height: 1.7em;
+}
+
+/* links */
+a {
+    color: white;
+    text-decoration: none;
+}
+/* headings */
+h1, h2, h3 {
+
+    padding: 50px 20px;
+}
+
+
+.showcase p {
+    padding: 20px;
+    margin: 10px 0;
+    columns: 2;
+    column-rule: 8px solid white;
+    column-gap: 40px;
+    
+}
+/* Nav Bar */
+
+#navbar {
+    background: #000;
+    color:white;
+    overflow: auto;
+    margin-top: 20px;
+}
+
+#navbar h1 {
+    float: left;
+    padding: 20px;
+}
+
+#navbar ul {
+    list-style: none;
+    float: right;
+    
+}
+
+#navbar li {
+    float: left;
+    
+}
+
+#navbar ul li a {
+    display: block;
+    padding: 20px;
+    text-align: center;
+    /* height: 40px; */
+    margin: 10px;
+    
+    /* margin: 10px; */
+}
+
+#navbar ul li a.current,
+#navbar ul li a:hover {
+    color: black;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: rgb(245, 23, 215);
+}
+
+
+/* hero shot and intro */
+
+.showcase-content  {
+    /* background: url('../img/intro.jpg') no-repeat center center/cover; */
+    height: 400px;
+    background-color: rgb(248, 248, 244);
+    position: relative;
+    
+}
+
+/* coding journey button */
+.btn {
+    color:  rgb(245, 23, 215);
+    display: inline-block;
+    font-weight: bolder;
+    padding: 20px;
+    background: rgb(224, 223, 223);
+    border: none;
+    padding: 8px;
+
+    .showcase .showcase-content a .btn {
+    position: absolute;
+    left: 20px;
+    }
+    
+    
+    
+    /* text-shadow: 1px 1px 1px rgb(9, 195, 252); */
+}
+
+.features .container{
+display: flex;   
+align-items: baseline;
+background-color: rgb(214, 212, 212);
+
+
+}
+/* features */
+.features a .btn {
+background-color: white;
+}
+
+.features p {
+padding-bottom: 20px;
+margin: 20px;
+}
+
+.features a{
+background-color: rgb(248, 248, 244);    
+}
